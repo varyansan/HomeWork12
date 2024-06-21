@@ -13,5 +13,6 @@ public class Author {
 
     public String getSecondName() {
         return this.secondName;
+
     }
 }

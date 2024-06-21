@@ -14,6 +14,5 @@ public class Main {
         System.out.println("Вторая книга: " + "\"" + guilty.title + "\"" + ", написанна в " + guilty.yearOfPublication +
                 " году. Автор: " + kanaeMinato.firstName + " " + kanaeMinato.secondName);
 
-
     }
 }
