@@ -9,10 +9,8 @@ public class Main {
         Book guilty = new Book("Виновен", 2022, kanaeMinato);
         guilty.setYearOfPublication(2015);
 
-        System.out.println("Первая книга: " + "\"" + catsCradle.title + "\"" + ", написанна в " + catsCradle.yearOfPublication
-                + " году. Автор: " + kurtVonnegut.firstName + " " + kurtVonnegut.secondName);
-        System.out.println("Вторая книга: " + "\"" + guilty.title + "\"" + ", написанна в " + guilty.yearOfPublication +
-                " году. Автор: " + kanaeMinato.firstName + " " + kanaeMinato.secondName);
+        System.out.println("Первая книга: " + "\"" + catsCradle.getTitle() + "\"" + ", написанна в " + catsCradle.getTitle() + " году. Автор: " + kurtVonnegut.getFirstName() + " " + kurtVonnegut.getSecondName());
+        System.out.println("Вторая книга: " + "\"" + guilty.getTitle() + "\"" + ", написанна в " + guilty.getYearOfPublication() + " году. Автор: " + kanaeMinato.getFirstName() + " " + kanaeMinato.getSecondName());
 
     }
 }
